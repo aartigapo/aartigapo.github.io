@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://i.pinimg.com/1200x/a5/46/76/a546769fcdf6fc7cf863f09804606357.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero {
+    width: min(700px, 90%);
+    aspect-ratio: 16 / 9;
+    background: url("https://i.pinimg.com/736x/12/15/1b/12151bfdb8cd91ffbdf81c181f7c526f.jpg") no-repeat center center;
+    background-size: cover;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-top {
+    padding: 1.5rem 2rem;
+    background: linear-gradient(rgba(83, 82, 82, 0.5), transparent);
+    border-radius: 2px 2px 0 0;
+    color: #fff;
+    font-family: Georgia, serif;
+}
+
+.hero-bottom {
+    padding: 1.5rem 2rem;
+    background: linear-gradient(transparent, rgba(83, 82, 82, 0.5));
+    border-radius: 0 0 2px 2px;
+    color: #fff;
+    font-family: Georgia, serif;
+}
+
+.links {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.links a {
+    font-size: clamp(12px, 1.5vw, 14px);
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #fff;
+}
+
+h1 {
+    font-size: clamp(20px, 4vw, 36px);
+    font-weight: 400;
+    margin-bottom: 0.4rem;
+}
+
+.hero-text > p {
+    font-size: clamp(12px, 1.5vw, 14px);
+    opacity: 1;
+}
